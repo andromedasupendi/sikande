@@ -15,7 +15,7 @@ from operator import add
 # application init
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://sikande:financial2022@sikande.mysql.pythonanywhere-services.com/sikande$default'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://sikande'
 app.config['SECRET_KEY'] = 'you-will-never-guess'
 
 # assign the db object init
